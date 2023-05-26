@@ -1,0 +1,66 @@
+.mail{
+    grid-area: mail;
+}
+.calender{
+    grid-area: calender;
+}
+.explorer{
+    grid-area: explorer;   
+}
+.video{
+    grid-area: video;   
+}
+.headphones{
+    grid-area: headphones;
+}
+.games{
+    grid-area: games;
+}
+.camera{
+    grid-area: camera;   
+}
+.sports{
+    grid-area: sports;
+}
+.money{
+    grid-area: money;
+}
+.help{
+    grid-area: tips;
+}
+.drive{
+    grid-area: drive;
+}
+.people{
+    grid-area: people;
+}
+.skype{
+    grid-area: skype;
+}
+.weather{
+    grid-area: weather;
+}
+.photos{
+    grid-area: photos;
+}
+.onenote{
+    grid-area: onenote;
+}
+.desk{
+    grid-area: desk;
+}
+.PC{
+    grid-area: PC;
+}
+.setting{
+    grid-area: setting;
+}
+.news{
+    grid-area: news;
+}
+.file1{
+    grid-area: file1;
+}
+.file2{
+    grid-area: file2;   
+}

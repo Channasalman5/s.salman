@@ -1,0 +1,902 @@
+.flip-card {
+    background-color: transparent;
+    text-align: center;
+    height: 20.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #029fd3;
+  }
+  .flip-card-front img{
+      color: #fff;
+      padding-top: 4vh;
+  }
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-calendar {
+    background-color: transparent;
+    text-align: center;
+    height: 20.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-calendar-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-calendar:hover .flip-calendar-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-calendar-front, .flip-calendar-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-calendar-front {
+    background-color: rgb(113, 14, 194);
+  }
+  .flip-calendar-front img{
+      color: #fff;
+      padding-top: 4vh;
+  }
+  .flip-calendar-back {
+    background-color: rgb(113, 14, 194);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-explorer {
+    background-color: transparent;
+    text-align: center;
+    height: 20.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-explorer-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-explorer:hover .flip-explorer-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-explorer-front, .flip-explorer-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-explorer-front {
+    background-color: #029fd3;
+  }
+  .flip-explorer-front img{
+      color: #fff;
+      padding-top: 4vh;
+  }
+  .flip-explorer-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-video {
+    background-color: transparent;
+    text-align: center;
+    height: 10vh;
+    perspective: 1000px;
+  }
+  
+  .flip-video-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-video:hover .flip-video-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-video-front, .flip-video-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-video-front {
+    background: #d30236;
+  }
+  .flip-video-front img{
+      color: #fff;
+      padding-top: 2.2vh;
+  }
+  .flip-video-back {
+    background-color: #d30236;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-headphones {
+    background-color: transparent;
+    text-align: center;
+    height: 10vh;
+    perspective: 1000px;
+  }
+  
+  .flip-headphones-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-headphones:hover .flip-headphones-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-headphones-front, .flip-headphones-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-headphones-front {
+    background: #ee8802;
+  }
+  .flip-headphones-front img{
+      color: #fff;
+      padding-top: 2.2vh;
+  }
+  .flip-headphones-back {
+    background-color: #ee8802;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-games {
+    background-color: transparent;
+    text-align: center;
+    height: 10vh;
+    perspective: 1000px;
+  }
+  
+  .flip-games-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-games:hover .flip-games-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-games-front, .flip-games-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-games-front {
+    background: #029e0a;
+  }
+  .flip-games-front img{
+      color: #fff;
+      padding-top: 2.2vh;
+  }
+  .flip-games-back {
+    background-color: #029e0a;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-camera {
+    background-color: transparent;
+    text-align: center;
+    height: 10vh;
+    perspective: 1000px;
+  }
+  
+  .flip-camera-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-camera:hover .flip-camera-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-camera-front, .flip-camera-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-camera-front {
+    background: #9902b8;
+  }
+  .flip-camera-front img{
+      color: #fff;
+      padding-top: 2.2vh;
+  }
+  .flip-camera-back {
+    background: #9902b8;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-sports {
+    background-color: transparent;
+    text-align: center;
+    height: 20.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-sports-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-sports:hover .flip-sports-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-sports-front, .flip-sports-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-sports-front {
+    background-color: rgb(113, 14, 194);
+  }
+  .flip-sports-front img{
+      color: #fff;
+      padding-top: 4vh;
+  }
+  .flip-sports-back {
+    background-color: rgb(113, 14, 194);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-money {
+    background-color: transparent;
+    text-align: center;
+    height: 20.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-money-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-money:hover .flip-money-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-money-front, .flip-money-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-money-front {
+    background: #029e0a;
+  }
+  .flip-money-front img{
+      color: #fff;
+      padding-top: 4vh;
+  }
+  .flip-money-back {
+    background: #029e0a;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-help {
+    background-color: transparent;
+    text-align: center;
+    height: 20.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-help-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-help:hover .flip-help-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-help-front, .flip-help-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-help-front {
+    background: #e28a05;
+  }
+  .flip-help-front img{
+      color: #fff;
+      padding-top: 2.5vh;
+  }
+  .flip-help-back {
+    background: #e28a05;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-drive {
+    background-color: transparent;
+    text-align: center;
+    height: 20.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-drive-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-drive:hover .flip-drive-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-drive-front, .flip-drive-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-drive-front {
+    background: #183de4;
+  }
+  .flip-drive-front img{
+      color: #fff;
+      padding-top: 2.5vh;
+  }
+  .flip-drive-back {
+    background: #183de4;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-people {
+    background-color: transparent;
+    text-align: center;
+    height: 25.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-people-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-people:hover .flip-people-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-people-front, .flip-people-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-people-front {
+    background: #ff6701;
+  }
+  .flip-people-front img{
+      color: #fff;
+      padding-top: 2.5vh;
+  }
+  .flip-people-back {
+    background: #ff6701;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-skype {
+    background-color: transparent;
+    text-align: center;
+    height: 25.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-skype-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-skype:hover .flip-skype-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-skype-front, .flip-skype-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-skype-front {
+    background: #029fd3;
+  }
+  .flip-skype-front img{
+      color: #fff;
+      padding-top: 4.5vh;
+  }
+  .flip-skype-back {
+    background: #029fd3;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-weather {
+    background-color: transparent;
+    text-align: center;
+    height: 47.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-weather-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-weather:hover .flip-weather-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-weather-front, .flip-weather-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-weather-front {
+    background: #029fd3;
+  }
+  .flip-weather-front img{
+      color: #fff;
+      padding-top: 15.5vh;
+  }
+  .flip-weather-back {
+    background: #029fd3;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-photos {
+    background-color: transparent;
+    text-align: center;
+    height: 25.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-photos-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-photos:hover .flip-photos-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-photos-front, .flip-photos-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-photos-front {
+    background: #029fd3;
+  }
+  .flip-photos-front img{
+      color: #fff;
+      padding-top: 4.5vh;
+  }
+  .flip-photos-back {
+    background: #029fd3;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-onenote {
+    background-color: transparent;
+    text-align: center;
+    height: 25.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-onenote-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-onenote:hover .flip-onenote-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-onenote-front, .flip-onenote-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-onenote-front {
+    background: #9a2adb;
+  }
+  .flip-onenote-front img{
+      color: #fff;
+      padding-top: 4.5vh;
+  }
+  .flip-onenote-back {
+    background: #9a2adb;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-desk {
+    background-color: transparent;
+    text-align: center;
+    height: 21.3vh;
+    perspective: 1000px;
+  }
+  
+  .flip-desk-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-desk:hover .flip-desk-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-desk-front, .flip-desk-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-desk-front {
+    background: url(./images.jpg);
+  }
+  .flip-desk-front img{
+      color: #fff;
+      padding-top: 4.5vh;
+  }
+  .flip-desk-back {
+    background: url(./images.jpg);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-PC {
+    background-color: transparent;
+    text-align: center;
+    height: 10vh;
+    perspective: 1000px;
+  }
+  
+  .flip-PC-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-PC:hover .flip-PC-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-PC-front, .flip-PC-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-PC-front {
+    background: rgb(51, 51, 235);
+  }
+  .flip-PC-front img{
+      color: #fff;
+      padding-top: 2.5vh;
+  }
+  .flip-PC-back {
+    background: rgb(51, 51, 235);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-setting {
+    background-color: transparent;
+    text-align: center;
+    height: 10vh;
+    perspective: 1000px;
+  }
+  
+  .flip-setting-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-setting:hover .flip-setting-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-setting-front, .flip-setting-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-setting-front {
+    background: #8602d3;
+  }
+  .flip-setting-front img{
+      color: #fff;
+      padding-top: 2.2vh;
+  }
+  .flip-setting-back {
+    background: #8602d3;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-news {
+    background-color: transparent;
+    text-align: center;
+    height: 21.2vh;
+    perspective: 1000px;
+  }
+  
+  .flip-news-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-news:hover .flip-news-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-news-front, .flip-news-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-news-front {
+    background: #d30248;
+  }
+  .flip-news-front img{
+      color: #fff;
+      padding-top: 6.2vh;
+  }
+  .flip-news-back {
+    background: #d30248;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-file1 {
+    background-color: transparent;
+    text-align: center;
+    height: 10.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-file1-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-file1:hover .flip-file1-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-file1-front, .flip-file1-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-file1-front {
+    background: grey;
+  }
+  .flip-file1-front img{
+      color: #fff;
+      padding-top: 1.2vh;
+  }
+  .flip-file1-back {
+    background: grey;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-file2 {
+    background-color: transparent;
+    text-align: center;
+    height: 10.5vh;
+    perspective: 1000px;
+  }
+  
+  .flip-file2-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-file2:hover .flip-file2-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-file2-front, .flip-file2-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-file2-front {
+    background: rgb(13, 13, 241);
+  }
+  .flip-file2-front img{
+      color: #fff;
+      padding-top: 1.2vh;
+  }
+  .flip-file2-back {
+    background: rgb(13, 13, 241);
+    color: white;
+    transform: rotateY(180deg);
+  }
